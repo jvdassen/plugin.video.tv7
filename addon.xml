@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tv7"
+version="2.3.1"
+name="Init7 Multicast TV"
+provider-name="Jan vdA">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Init7 Multicast TV</summary>
+  <description lang="en_GB">A plugin for Kodi mediacenter that lets customers of Init7 access the TV7 service.</description>
+  <disclaimer lang="en_GB">This plugin only works for Init7 customers within their network. This is third-party software, Init7 is in no way liable or responsible for this software. https://www.init7.net/</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>
+  </assets>
+  <news>Added latest TV sources</news>
+</extension>
+</addon>
